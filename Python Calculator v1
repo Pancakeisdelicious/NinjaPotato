@@ -1,0 +1,29 @@
+def plus(a,b):
+  return(int(a)+int(b))
+
+def minus(a,b):
+  return(int(a)-int(b)) 
+
+def product(a,b):
+  return(int(a)*int(b)) 
+
+def quotient(a,b):
+  return(int(a)//int(b))
+
+
+def negated(a,b):
+  return(int(-a), int(-b))
+
+
+def power(a,b):
+  return(int(a)**int(b))
+
+print("덧셈의 숫자는=",plus(10,5))
+
+print("뺄셈의 숫자는=",minus(10,5))
+
+print("곱의 숫자는=",product(10,5))
+
+print("음수의 숫자는=",negated(10,5))
+
+print("두번 곱의 숫자는=",power(10,5))
